@@ -1,0 +1,161 @@
+\\FUNCTIONS 
+\\ to find the greatest number among two
+type: with prameter without return
+#include<stdio.h>
+int n,m;
+void greater(int n,int m);
+void main() 
+{
+    int n,m;
+    printf("The value of n: ");
+      scanf("%d",&n); 
+    printf("The value of m: ");
+      scanf("%d",&m); 
+      greater(n,m);
+}
+void greater(int n, int m)
+{
+    if (n>m)
+        
+        printf("The value of 'n' is GREATER");
+     else
+        
+        printf("The value of 'm' is GREATER");
+}
+_________________________________________________________________
+OUTPUT
+    The value of n: 89
+    The value of m: 45
+     The value of 'n' is GREATER
+
+__________________________________________________________________
+
+
+\\ type: withoutparameter withoutreturn
+#include<stdio.h>
+int n,m;
+void greater();
+void main() 
+{
+    int n,m;
+    printf("The value of n: ");
+      scanf("%d",&n); 
+    printf("The value of m: ");
+      scanf("%d",&m); 
+      greater(n,m);
+}
+void greater()
+{
+    if (n>m)
+        
+        printf("The value of 'n' is GREATER");
+     else
+        
+        printf("The value of 'm' is GREATER");
+}
+______________________________________________________________
+
+OUTPUT
+
+       The value of n: 45
+       The value of m: 38
+       The value of 'm' is GREATER
+_______________________________________________________________
+
+\\ type: withparametr withreturn
+#include<stdio.h>
+int n,m ;
+int greater(int n,int m);
+int main() 
+{
+    int n,m;
+
+    printf("The value of n: ");
+      scanf("%d",&n); 
+    printf("The value of m: ");
+      scanf("%d",&m); 
+      greater(n,m);
+      return (n,m);
+}
+int greater(int n,int m)
+{
+    if (n>m)
+        
+        printf("The value of 'n' is GREATER");
+     else
+        
+        printf("The value of 'm' is GREATER");
+        return (n,m);
+        
+}
+
+_______________________________________________________________
+
+OUTPUT
+       The value of n: 546
+       The value of m: 489
+      The value of 'n'is GREATER
+________________________________________________________________
+
+\\ type: withoutparameter withreturn
+
+#include<stdio.h>
+int n,m ;
+int greater();
+int main() 
+{
+    int n,m;
+
+    printf("The value of n: ");
+      scanf("%d",&n); 
+    printf("The value of m: ");
+      scanf("%d",&m); 
+      greater(n,m);
+      return (n,m);
+}
+int greater()
+{
+    if (n>m)
+        
+        printf("The value of 'n' is GREATER");
+     else
+        
+        printf("The value of 'm' is GREATER");
+        return (n,m);
+        
+}
+_______________________________________________________________
+
+OUTPUT
+        The value of n: 386
+        The value of m: 526
+        The value of 'm' is GREATER  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
